@@ -1,6 +1,6 @@
 {
     "require": {
-      "crimsonking/fragments": "^2.0"
+      "crimsonking/fragments": "@dev"
     },
     "autoload": {
         "psr-4": {
