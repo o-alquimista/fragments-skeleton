@@ -1,6 +1,7 @@
 {
     "name": "crimsonking/fragments-skeleton",
     "description": "A skeleton project for the creation of a Fragments application",
+    "license": "AGPL-3.0-or-later",
     "require": {
       "crimsonking/fragments": "@dev"
     },
