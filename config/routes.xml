@@ -3,11 +3,11 @@
 <routing>
 <!--
   <route>
-    <id>index</id>
+    <id>main</id>
     <path>/</path>
-    <controller>App\Controller\IndexController</controller>
+    <controller>App\Controller\MainController</controller>
     <methods>GET|POST</methods>
-    <action>showIndex</action>
+    <action>mainPage</action>
   </route>
 -->
 </routing>
