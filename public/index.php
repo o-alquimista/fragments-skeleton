@@ -12,12 +12,12 @@ use Fragments\Bundle\Exception\HttpException;
 use Fragments\Bundle\Exception\ServerErrorHttpException;
 use Fragments\Component\TemplateHelper;
 
+$router = new Router;
 $exceptionHandler = new ExceptionHandler;
-$exceptionHandler->setHandler();
 
 try {
     try {
-        $router = new Router;
+        $exceptionHandler->setHandler();
         $router->start();
     } catch (\ErrorException $errorException) {
         throw new ServerErrorHttpException('Something went wrong.', $errorException);
