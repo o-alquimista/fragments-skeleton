@@ -1,7 +1,6 @@
 {
     "name": "crimsonking/fragments-skeleton",
     "description": "This package contains what you need to start developing a Fragments application",
-    "license": "AGPL-3.0-or-later",
     "require": {
       "crimsonking/fragments": "^0.6"
     },
