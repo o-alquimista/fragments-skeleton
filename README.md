@@ -1,1 +1,0 @@
-This package contains what you need to start developing a Fragments application.
