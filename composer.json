@@ -2,7 +2,7 @@
     "name": "crimsonking/fragments-skeleton",
     "description": "This package contains what you need to start developing a Fragments application",
     "require": {
-      "crimsonking/fragments": "^0.8"
+      "crimsonking/fragments": "^0.9"
     },
     "autoload": {
         "psr-4": {
